@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import RootContainer from "./components/RootContainer/RootContainer";
 import RootHeader from "./components/RootHeader/RootHeader";
 import RootLayout from "./components/RootLayout/RootLayout";
@@ -15,6 +15,9 @@ function App() {
     //   </RootContainer>
     // </RootLayout>
     <>
+      <h2>hello spring framework</h2>
+      <Link to={"/board/save"}>글작성</Link>
+      <Link to={"/board/"}>글목록</Link>
     </>
   );
 }
