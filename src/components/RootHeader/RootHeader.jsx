@@ -15,11 +15,11 @@ function RootHeader() {
     const [ show, setShow ] = useRecoilState(menuState);
     const [ isLogin, setLogin ] = useState(false);
     const queryClient = useQueryClient();
-    const principalQueryState = queryClient.getQueryState("principalQuery");
+    // const principalQueryState = queryClient.getQueryState("principalQuery");
 
-    useEffect(() => {
-        setLogin(() => principalQueryState.status === "success");
-    }, [principalQueryState.status]);
+    // useEffect(() => {
+    //     setLogin(() => principalQueryState.status === "success");
+    // }, [principalQueryState.status]);
 
     const handleOpenClick = (e) => {
         e.stopPropagation();

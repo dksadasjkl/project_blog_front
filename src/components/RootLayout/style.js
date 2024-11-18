@@ -7,18 +7,15 @@ export const background = css`
     z-index: -99;
     width: 100%;
     height: 100%;
-    background-color: #666666;
+    background-color: white;
+    /* overflow-x: hidden; */
 `;
 
 export const layout = css`
     box-sizing: border-box;
     position: relative;
-    margin: 100px auto;
-    border: 2px solid #fafafa;
-    border-radius: 30px;
-    padding: 10px;
-    width: 800px;
-    height: 600px;
-    overflow: hidden;
-    background-color: black;
+    margin: 0px auto;
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
 `;
