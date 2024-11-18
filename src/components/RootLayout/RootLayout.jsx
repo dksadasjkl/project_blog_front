@@ -9,6 +9,7 @@ function RootLayout({ children }) {
             <div css={s.background}>
                 <div css={s.layout} >
                     {children}
+                    <div>sadas</div>
                 </div>
             </div>
         </>
