@@ -5,9 +5,8 @@ export const container = css`
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border: none;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    background-color: #fafafa;
+    background-color: white;
 `;

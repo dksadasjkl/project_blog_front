@@ -41,19 +41,9 @@ function AuthRoute(props) {
 
     return (
         <>
-            <RootSideMenuLeft />
-            <RootHeader />
-            <PageContainer>
-                {
-                    principalQuery.isLoading 
-                    ? <FullSizeLoader size={20}/> 
-                    : <Routes>
-                        <Route path="/auth/*" element={ <AuthPage /> } />
-                        <Route path="/" element={ <HomePage /> } />
-                        <Route path="/account/mypage" element={ <MyPage /> } />
-                    </Routes> 
-                }
-            </PageContainer>
+           <Routes>
+                <Route path="/auth/*" element={ <AuthPage /> } />           
+            </Routes> 
         </>
     );
 }

@@ -12,8 +12,8 @@ import PageContainer from "./components/PageContainer/PageContainer";
 function App() {
   return (
     <RootLayout>
-      <RootHeader />
       <RootContainer>
+      <RootHeader />
         <PageContainer >
           <Routes>
             <Route path='/*' element={
