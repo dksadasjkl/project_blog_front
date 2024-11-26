@@ -9,6 +9,7 @@ import AuthRoute from "./Routes/AuthRoute";
 import RootFooter from "./components/RootFooter/RootFooter";
 import PageContainer from "./components/PageContainer/PageContainer";
 import HomeRoute from "./Routes/HomeRoute";
+import PageLayout from "./components/PageLayout/PageLayout";
 
 function App() {
   return (
@@ -27,9 +28,9 @@ function App() {
     //   <RootFooter />
     //   </RootContainer>
     // </RootLayout>
-    <RootLayout>
-        <HomeRoute />
-    </RootLayout>
+    <PageLayout>
+       <HomeRoute />
+    </PageLayout>
   );
 }
 

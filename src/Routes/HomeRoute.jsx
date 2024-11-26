@@ -4,6 +4,8 @@ import AdminAuthPage from '../pages/AdminAuthPage/AdminAuthPage';
 import { getPrincipalRequest } from '../apis/api/principal';
 import { Route, Routes } from 'react-router-dom';
 import AdminSignupPage from '../pages/AdminSignupPage/AdminSignupPage';
+import AdminRoute from './AdminRoute';
+import MenuRoute from './MenuRoute';
 
 function HomeRoute(props) {
     const principalQuery = useQuery(["principalQuery"], getPrincipalRequest, {
@@ -26,8 +28,10 @@ function HomeRoute(props) {
             ) : 
             (
                 <Routes>
+                    <Route path="/menu/*" element={<MenuRoute />} />
+                    <Route path="/admin/*" element={<AdminRoute />} />
                     {/* <Route path="/" element={<AdminAuthPage />} /> */}
-                    <Route path="/admin/signup" element={<AdminSignupPage />} />
+                    
                     {/* <Route path="/selectmenu" element={<SelectAdminPage />} />
                     <Route path="/oauth2" element={<OAuth2Page />} />
                     <Route
@@ -39,7 +43,7 @@ function HomeRoute(props) {
                         element={<OAuth2SigninPage />}
                     />
                     <Route path="/oauth2/merge" element={<OAuth2MergePage />} />
-                    <Route path="/menu/*" element={<MenuRoute />} />
+                    
                     <Route path="/admin/*" element={<AdminRoute />} /> */}
                 </Routes>
             )
