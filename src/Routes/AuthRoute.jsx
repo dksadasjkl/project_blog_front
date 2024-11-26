@@ -25,19 +25,19 @@ import PageContainer from "../components/PageContainer/PageContainer";
 */
 function AuthRoute(props) {
     
-    const principalQuery = useQuery(["principalQuery"], getPrincipalRequest, 
-    {
-        retry: 0,
-        refetchOnWindowFocus: false,
-        onSuccess: response => {
-            console.log("onSuccess");
-            console.log(response);
-        },
-        onError: error => {
-            console.log("오류");
-            console.log(error);
-        }
-    });
+    // const principalQuery = useQuery(["principalQuery"], getPrincipalRequest, 
+    // {
+    //     retry: 0,
+    //     refetchOnWindowFocus: false,
+    //     onSuccess: response => {
+    //         console.log("onSuccess");
+    //         console.log(response);
+    //     },
+    //     onError: error => {
+    //         console.log("오류");
+    //         console.log(error);
+    //     }
+    // });
 
     return (
         <>

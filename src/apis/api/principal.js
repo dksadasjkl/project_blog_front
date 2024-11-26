@@ -1,5 +1,5 @@
-import instance from "../utils/instance"
+import instance from "../utils/instance";
 
 export const getPrincipalRequest = async () => {
-    return await instance.get("/account/principal");
+    return await instance.get("/admin/account/principal");
 }
