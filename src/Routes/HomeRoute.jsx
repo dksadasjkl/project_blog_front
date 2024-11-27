@@ -28,6 +28,7 @@ function HomeRoute(props) {
             ) : 
             (
                 <Routes>
+                    <Route path="/" element={<AdminAuthPage />} />
                     <Route path="/menu/*" element={<MenuRoute />} />
                     <Route path="/admin/*" element={<AdminRoute />} />
                     {/* <Route path="/" element={<AdminAuthPage />} /> */}

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AdminSignupPage from '../pages/AdminSignupPage/AdminSignupPage';
+import MenuPage from '../pages/MenuPage/MenuPage';
 
 function AdminRoute(props) {
     return (
         <Routes>
             <Route path="/signup" element={<AdminSignupPage />} />
-
+            {/* <Route path="/menuall/*" element={<MenuPage />} /> */}
             {/* <Route path="/main" element={<AdminMainPage />} />
             <Route path="/sale/*" element={<AdminSalesPage />} />
             <Route path="/pay" element={<AdminPayPage />} />
