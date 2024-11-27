@@ -2,14 +2,15 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from '../pages/HomePage/HomePage';
 import SelectPackageOrStore from '../pages/SelectPackageOrStore/SelectPackageOrStore';
+import MenuPage from '../pages/MenuPage/MenuPage';
 
 function MenuRoute(props) {
     return (
         <Routes>
             <Route path="/main" element={<HomePage />} />
-             <Route path="/select" element={<SelectPackageOrStore />} />
-            {/*<Route path="/menuall/*" element={<MenuPage />} />
-            <Route path="/point" element={<PointAccumulation />} />
+            <Route path="/select" element={<SelectPackageOrStore />} />
+            <Route path="/menuall/*" element={<MenuPage />} />
+             {/*<Route path="/point" element={<PointAccumulation />} />
             <Route path="/feedbackChoice" element={<FeedbackChoicePage />} />
             <Route path="/feedback" element={<FeedbackWritePage />} />
             <Route path="/feedback/ok" element={<FeedbackOkPage />} />
