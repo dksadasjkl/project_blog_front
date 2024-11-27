@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import PageModal from "../../components/PageModal/PageModal";
 import PointAccumulation from "../PointAccumulation/PointAccumulation";
+import PointPhoneNumber from "../PointPhoneNumber/PointPhoneNumber";
 import * as s from "./style";
 import { Route, Routes, useNavigate } from 'react-router-dom';
 
@@ -49,8 +50,8 @@ function PaymentMethod(props) {
                 <Routes>
                     <Route path="/" element={<></>} />
                     <Route path="/askpoint" element={<PointAccumulation />} />
-                    {/* <Route path="/pointinput" element={<PointPhoneNumber />} />
-                    <Route
+                    <Route path="/pointinput" element={<PointPhoneNumber />} />
+                    {/*<Route
                         path="/usepointinput"
                         element={<UsePointPhoneNumber />}
                     /> */}
