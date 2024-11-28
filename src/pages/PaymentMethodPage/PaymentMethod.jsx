@@ -2,6 +2,7 @@
 import PageModal from "../../components/PageModal/PageModal";
 import PointAccumulation from "../PointAccumulation/PointAccumulation";
 import PointPhoneNumber from "../PointPhoneNumber/PointPhoneNumber";
+import UsePointPhoneNumber from "../UsePointPhoneNumber/UsePointPhoneNumber";
 import * as s from "./style";
 import { Route, Routes, useNavigate } from 'react-router-dom';
 
@@ -51,10 +52,7 @@ function PaymentMethod(props) {
                     <Route path="/" element={<></>} />
                     <Route path="/askpoint" element={<PointAccumulation />} />
                     <Route path="/pointinput" element={<PointPhoneNumber />} />
-                    {/*<Route
-                        path="/usepointinput"
-                        element={<UsePointPhoneNumber />}
-                    /> */}
+                    <Route path="/usepointinput" element={<UsePointPhoneNumber />} />
                 </Routes>
             </div>
         </PageModal>
