@@ -122,6 +122,13 @@ function AdminAuthPage() {
                             로그인
                         </button>
                         <a
+                            href={`${getServerAddress()}/oauth2/authorization/google`}
+                            css={s.loginButton}
+                        >
+                            <span>구글</span>
+                            로그인
+                        </a>
+                        <a
                             href={`${getServerAddress()}/oauth2/authorization/kakao`}
                             css={s.loginButton}
                         >
