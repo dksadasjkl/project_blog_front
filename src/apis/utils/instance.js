@@ -8,3 +8,12 @@ const instance = axios.create({
 });
 
 export default instance;
+
+
+export const portOneInstance = axios.create({
+    baseURL: "https://api.portone.io",
+    headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+    },
+});
