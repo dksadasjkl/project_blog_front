@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import AdminSignupPage from '../pages/AdminSignupPage/AdminSignupPage';
 import AdminRoute from './AdminRoute';
 import MenuRoute from './MenuRoute';
+import OAuth2Route from './OAuth2Route';
 
 function HomeRoute(props) {
     const principalQuery = useQuery(["principalQuery"], getPrincipalRequest, {
@@ -31,21 +32,7 @@ function HomeRoute(props) {
                     <Route path="/" element={<AdminAuthPage />} />
                     <Route path="/menu/*" element={<MenuRoute />} />
                     <Route path="/admin/*" element={<AdminRoute />} />
-                    {/* <Route path="/" element={<AdminAuthPage />} /> */}
-                    
-                    {/* <Route path="/selectmenu" element={<SelectAdminPage />} />
-                    <Route path="/oauth2" element={<OAuth2Page />} />
-                    <Route
-                        path="/oauth2/signup"
-                        element={<OAuth2SignupPage />}
-                    />
-                    <Route
-                        path="/oauth2/signin"
-                        element={<OAuth2SigninPage />}
-                    />
-                    <Route path="/oauth2/merge" element={<OAuth2MergePage />} />
-                    
-                    <Route path="/admin/*" element={<AdminRoute />} /> */}
+                    <Route path="/oauth2/*" element={<OAuth2Route />}/>
                 </Routes>
             )
             }

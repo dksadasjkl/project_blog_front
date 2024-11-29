@@ -62,11 +62,11 @@ function AdminAuthPage() {
     };
 
     const handleSignupClick = () => {
-        navigate("/adminsignup");
+        navigate("/admin/signup");
     };
 
     const handleStoreButtonClick = () => {
-        window.location.href = "/selectmenu";
+        window.location.href = "/admin/select/menu";
     };
 
     const handleLogoutClick = () => {
