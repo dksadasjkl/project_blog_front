@@ -1,12 +1,14 @@
 /**@jsxImportSource @emotion/react */
 import * as s from "./style";
 import { FaCrown } from "react-icons/fa";
-import { PiHamburger } from "react-icons/pi";
 import { LuGlassWater } from "react-icons/lu";
 import { TiThSmall } from "react-icons/ti";
 import { useRecoilState } from "recoil";
 import { categoryState } from "../../atoms/categoryAtom";
 import BigCategoryButton from "../BigCategoryButton/BigCategoryButton";
+import { LuCoffee } from "react-icons/lu";
+import { SiBuymeacoffee } from "react-icons/si";
+import { TiCoffee } from "react-icons/ti";
 
 function BigMenuComponent() {
     const [category, setCategory] = useRecoilState(categoryState);
@@ -16,11 +18,20 @@ function BigMenuComponent() {
     const handleTop3Click = () => {
         setCategory(2);
     };
-    const handleBurgerClick = () => {
+    const handleHotCoffeeClick = () => {
         setCategory(3);
     };
-    const handleDrinkClick = () => {
+    const handleIceCoffeeClick = () => {
         setCategory(4);
+    };
+    const handleSmoothieFrappeClick = () => {
+        setCategory(5);
+    };
+    const handleAdeClick = () => {
+        setCategory(6);
+    };
+    const handleTeaClick = () => {
+        setCategory(7);
     };
     return (
         <div css={s.layout}>
@@ -45,18 +56,40 @@ function BigMenuComponent() {
                 </div>
                 <div css={s.container}>
                     <BigCategoryButton
-                        icon={<PiHamburger />}
-                        categoryName={"버거"}
-                        onClick={handleBurgerClick}
+                         icon={<LuCoffee />}
+                         categoryName={"커피(HOT)"}
+                         onclick={handleHotCoffeeClick}
+                    />
+                </div>
+                <div css={s.container}>
+                    <BigCategoryButton
+                        icon={<TiCoffee />}
+                        categoryName={"커피(ICE)"}
+                        onclick={handleIceCoffeeClick}
+                    />
+                </div>
+                <div css={s.container}>
+                    <BigCategoryButton
+                        icon={<SiBuymeacoffee />}
+                        categoryName={"스무디"}
+                        onclick={handleSmoothieFrappeClick}
                     />
                 </div>
                 <div css={s.container}>
                     <BigCategoryButton
                         icon={<LuGlassWater />}
-                        categoryName={"음료"}
-                        onClick={handleDrinkClick}
+                        categoryName={"에이드"}
+                        onclick={handleAdeClick}
                     />
                 </div>
+                <div css={s.container}>
+                    <BigCategoryButton
+                        icon={<LuGlassWater />}
+                        categoryName={"티(Tea)"}
+                        onclick={handleTeaClick}
+                    />
+                </div>
+                
             </div>
         </div>
     );

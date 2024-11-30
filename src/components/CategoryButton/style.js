@@ -1,6 +1,7 @@
 import { css } from "@emotion/react";
 
 export const categoryLayout = css`
+    margin-right: 5px;
     height: 100%;
     & > button:nth-of-type(1) {
         margin-right: 15px;

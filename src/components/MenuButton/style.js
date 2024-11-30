@@ -14,8 +14,8 @@ export const menu = css`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 243px;
+    width: 218px;
+    height: 242px;
     border-radius: 15px;
     background-color: white;
     border: 1px solid #dbdbdb;

@@ -9,7 +9,7 @@ export const layout = css`
 `;
 
 export const header = css`
-    height: 40%;
+    height: 60%;
     box-sizing: border-box;
     display: flex;
     align-items: center;

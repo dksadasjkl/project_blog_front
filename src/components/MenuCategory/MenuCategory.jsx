@@ -3,9 +3,11 @@ import { useRecoilState } from "recoil";
 import CategoryButton from "../CategoryButton/CategoryButton";
 import * as s from "./style";
 import { categoryState } from "../../atoms/categoryAtom";
-import { PiHamburger } from "react-icons/pi";
 import { LuGlassWater } from "react-icons/lu";
+import { LuCoffee } from "react-icons/lu";
+import { SiBuymeacoffee } from "react-icons/si";
 import { FaCrown } from "react-icons/fa";
+import { TiCoffee } from "react-icons/ti";
 import { TiThSmall } from "react-icons/ti";
 
 function MenuCategory() {
@@ -16,11 +18,20 @@ function MenuCategory() {
     const handleTop3Click = () => {
         setCategory(2);
     };
-    const handleBurgerClick = () => {
+    const handleHotCoffeeClick = () => {
         setCategory(3);
     };
-    const handleDrinkClick = () => {
+    const handleIceCoffeeClick = () => {
         setCategory(4);
+    };
+    const handleSmoothieFrappeClick = () => {
+        setCategory(5);
+    };
+    const handleAdeClick = () => {
+        setCategory(6);
+    };
+    const handleTeaClick = () => {
+        setCategory(7);
     };
     return (
         <div css={s.layout}>
@@ -41,14 +52,29 @@ function MenuCategory() {
                     onclick={handleTop3Click}
                 />
                 <CategoryButton
-                    icon={<PiHamburger />}
-                    categoryName={"Burger"}
-                    onclick={handleBurgerClick}
+                    icon={<LuCoffee />}
+                    categoryName={"커피(HOT)"}
+                    onclick={handleHotCoffeeClick}
+                />
+                <CategoryButton
+                    icon={<TiCoffee />}
+                    categoryName={"커피(ICE)"}
+                    onclick={handleIceCoffeeClick}
+                />
+                <CategoryButton
+                    icon={<SiBuymeacoffee />}
+                    categoryName={"스무디"}
+                    onclick={handleSmoothieFrappeClick}
                 />
                 <CategoryButton
                     icon={<LuGlassWater />}
-                    categoryName={"Drink"}
-                    onclick={handleDrinkClick}
+                    categoryName={"에이드"}
+                    onclick={handleAdeClick}
+                />
+                <CategoryButton
+                    icon={<LuGlassWater />}
+                    categoryName={"티(Tea)"}
+                    onclick={handleTeaClick}
                 />
             </div>
         </div>

@@ -13,8 +13,8 @@ export const category = css`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 160px;
-    height: 170px;
+    width: 180px;
+    height: 225px;
     border-radius: 15px;
     background-color: white;
     border: 1px solid #dbdbdb;
