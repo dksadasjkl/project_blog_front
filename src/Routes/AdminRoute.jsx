@@ -12,6 +12,7 @@ import AdminMenuAdd from '../pages/AdminMenuAdd/AdminMenuAdd';
 import AdminMenuSearch from '../pages/AdminMenuSearch/AdminMenuSearch';
 import PasswordEditPage from '../pages/PasswordEditPage/PasswordEditPage';
 import AdminUserSearch from '../pages/AdminUserSearch/AdminUserSearch';
+import AdminFeedbackPage from '../pages/AdminFeedbackPage/AdminFeedbackPage';
 
 function AdminRoute(props) {
     return (
@@ -25,9 +26,8 @@ function AdminRoute(props) {
             <Route path="/getmenu/*" element={<AdminMenuSearch />} />
             <Route path="/passwordedit" element={<PasswordEditPage />} />
             <Route path="/usersearch" element={<AdminUserSearch />} />
-            {/* <Route path="/feedback" element={<AdminFeedbackPage />} />
-            <Route path="/signup" element={<OAuth2SignupPage />} />
-            <Route path="/setting" element={<AdminStoreSettingPage />} />  */}
+            <Route path="/feedback" element={<AdminFeedbackPage />} />
+            {/* <Route path="/setting" element={<AdminStoreSettingPage />} />  */}
         </Routes>
     );
 }
