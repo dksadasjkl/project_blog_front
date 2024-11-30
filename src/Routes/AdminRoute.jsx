@@ -13,6 +13,7 @@ import AdminMenuSearch from '../pages/AdminMenuSearch/AdminMenuSearch';
 import PasswordEditPage from '../pages/PasswordEditPage/PasswordEditPage';
 import AdminUserSearch from '../pages/AdminUserSearch/AdminUserSearch';
 import AdminFeedbackPage from '../pages/AdminFeedbackPage/AdminFeedbackPage';
+import AdminStoreSettingPage from '../pages/AdminStoreSettingPage/AdminStoreSettingPage';
 
 function AdminRoute(props) {
     return (
@@ -27,7 +28,7 @@ function AdminRoute(props) {
             <Route path="/passwordedit" element={<PasswordEditPage />} />
             <Route path="/usersearch" element={<AdminUserSearch />} />
             <Route path="/feedback" element={<AdminFeedbackPage />} />
-            {/* <Route path="/setting" element={<AdminStoreSettingPage />} />  */}
+            <Route path="/setting" element={<AdminStoreSettingPage />} /> 
         </Routes>
     );
 }
