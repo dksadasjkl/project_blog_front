@@ -1,50 +1,51 @@
-/** @jsxImportSource @emotion/react */
+/**@jsxImportSource @emotion/react */
 import * as s from "./style";
+import { useEffect, useRef, useState } from "react";
+import { useMutation, useQuery } from "react-query";
+import Select from "react-select";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { GrPowerReset } from "react-icons/gr";
 import { FaImages } from "react-icons/fa";
-import { useMutation, useQuery } from "react-query";
-import Select from "react-select";  
-import { useEffect, useRef, useState } from "react";
+import { v4 as uuid } from "uuid";
 import Swal from "sweetalert2";
 import { useMenuRegisterInput } from "../../hooks/useMenuRegisterInput";
 import { getAllCategoryRequest } from "../../apis/api/options";
-import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import { storage } from "../../apis/firebase/config/firebaseConfig";
-import { v4 as uuid } from "uuid";
-import { registerMenuRequest } from "../../apis/api/menuApi";
-import AdminPageLayout from "../../components/AdminPageLayout/AdminPageLayout";
-import noImg from "../../assets/noImg.webp";
+import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
+import { deleteMenuRequest, updateMenuRequest } from "../../apis/api/menuApi";
+import PageModal from "../../components/PageModal/PageModal";
 
-function AdminMenuAdd() {
-    // useAuthCheck();
+function AdminMenuUpdate({ menuList }) {
+    // useAuthCheck()
+    const [searchParams, setSearchParams] = useSearchParams();
     const [selectedOption, setSelectedOption] = useState(null);
     const [categoryOptions, setCategoryOptions] = useState([]);
-    const [noMinus, setNoMinus] = useState();
+    const [menu, setMenu] = useState();
+    const navigate = useNavigate();
     const fileRef = useRef();
-
-    const Toast = Swal.mixin({
-        toast: true,
-        position: "top-end",
-        showConfirmButton: false,
-        timer: 2000,
-        timerProgressBar: true,
-        didOpen: (toast) => {
-            toast.addEventListener("mouseenter", Swal.stopTimer);
-            toast.addEventListener("mouseleave", Swal.resumeTimer);
-        },
-    });
-
-    useEffect(() => {
-        if (menuPrice.value < 0) {
-            alert("sdf");
-        }
-    }, []);
 
     const menuName = useMenuRegisterInput();
     const menuCategoryId = useMenuRegisterInput();
     const menuPrice = useMenuRegisterInput();
     const menuCal = useMenuRegisterInput();
     const menuImgUrl = useMenuRegisterInput();
+
+    useEffect(() => {
+        setMenu(
+            () =>
+                menuList.filter(
+                    (menu) =>
+                        menu.menuId === parseInt(searchParams.get("menuId"))
+                )[0]
+        );
+    }, [menuList]);
+
+    useEffect(() => {
+        menuName.setValue(() => menu?.menuName);
+        menuPrice.setValue(() => menu?.menuPrice);
+        menuCal.setValue(() => menu?.menuCal);
+        menuImgUrl.setValue(() => menu?.menuImgUrl);
+    }, [menu]);
 
     const categoryQuery = useQuery(["categoryQuery"], getAllCategoryRequest, {
         onSuccess: (response) => {
@@ -71,7 +72,6 @@ function AdminMenuAdd() {
             e.target.value = "";
             return;
         }
-
         Swal.fire({
             title: "파일을 업로드 하시겠습니까?",
             text: "다시 되돌릴 수 없습니다. 신중하세요.",
@@ -85,11 +85,7 @@ function AdminMenuAdd() {
 
             reverseButtons: true, // 버튼 순서 거꾸로
         }).then((result) => {
-            // 만약 Promise리턴을 받으면,
             if (result.isConfirmed) {
-                // 만약 모달창에서 confirm 버튼을 눌렀다면
-
-                Swal.fire("업로드가 완료되었습니다.", "", "success");
                 const storageRef = ref(
                     storage,
                     `menu/img/${uuid()}_${files[0].name}`
@@ -101,10 +97,8 @@ function AdminMenuAdd() {
                     (snapshot) => {},
                     (error) => {},
                     () => {
-                        Toast.fire({
-                            icon: "success",
-                            title: "성공적으로 업로드가 완료되었습니다.",
-                        });
+                        Swal.fire("업로드가 완료되었습니다.", "", "success");
+
                         getDownloadURL(storageRef).then((url) => {
                             menuImgUrl.setValue(() => url);
                             console.log(url);
@@ -115,74 +109,100 @@ function AdminMenuAdd() {
         });
     };
 
-    const registerMenuMutation = useMutation({
-        mutationKey: "registerMenuMutation",
-        mutationFn: registerMenuRequest,
+    const updateMenuMutation = useMutation({
+        mutationKey: "updateMenuMutation",
+        mutationFn: updateMenuRequest,
         onSuccess: (response) => {
-            console.log(response.data);
-            Toast.fire({
-                icon: "success",
-                title: "성공적으로 등록 완료되었습니다.",
-            });
+            console.log(response);
             setTimeout(() => {
-                window.location.replace("/admin/add");
+                window.location.replace("/admin/getmenu");
             }, 2000);
         },
-        onError: (error) => {},
+        onError: (error) => {
+            console.log(error);
+            alert("수정할 메뉴를 선택해 주세요");
+        },
     });
 
-    const handleSubmitClick = () => {
-        if (
-            menuName.value &&
-            menuCategoryId.value &&
-            menuPrice.value &&
-            menuCal.value &&
-            menuImgUrl.value !== ""
-        ) {
-            if (menuPrice.value < 0) {
-                Toast.fire({
-                    icon: "error",
-                    title: "가격이 음수일 수 없습니다!",
-                });
-            } else if (menuCal.value < 0) {
-                Toast.fire({
-                    icon: "error",
-                    title: "칼로리가 음수일 수 없습니다!",
-                });
-            } else {
-                registerMenuMutation.mutate({
+    const deleteMenuMutation = useMutation({
+        mutationKey: "deleteMenuMutation",
+        mutationFn: deleteMenuRequest,
+        onSuccess: (response) => {
+            console.log(response);
+            setTimeout(() => {
+                window.location.replace("/admin/getmenu");
+            }, 2000);
+        },
+        onError: (error) => {
+            console.log(error);
+        },
+    });
+
+    const handleUpdateClick = () => {
+        Swal.fire({
+            title: "정말로 메뉴를 수정하시겠습니까?",
+            text: "수정된 메뉴는 다시 되돌릴 수 없습니다. 신중하세요.",
+            icon: "warning",
+
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "수정",
+            cancelButtonText: "취소",
+
+            reverseButtons: true,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                updateMenuMutation.mutate({
+                    menuId: searchParams.get("menuId"),
                     menuName: menuName.value,
                     categoryId: menuCategoryId.value.value,
                     menuPrice: menuPrice.value,
                     menuCal: menuCal.value,
                     menuImgUrl: menuImgUrl.value,
                 });
+                Swal.fire("메뉴가 성공적으로 수정되었습니다.", "", "success");
             }
-        } else {
-            Swal.fire({
-                title: "Oh..No..",
-                text: "전부 다 입력해주세요!",
-                icon: "error",
-                showConfirmButton: false,
-                timer: 2000,
-                timerProgressBar: true,
-            });
-        }
+        });
+    };
+
+    const handleDeleteClick = () => {
+        Swal.fire({
+            title: "정말로 메뉴를 삭제하시겠습니까?",
+            text: "삭제된 메뉴는 다시 되돌릴 수 없습니다. 신중하세요.",
+            icon: "warning",
+
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "삭제",
+            cancelButtonText: "취소",
+
+            reverseButtons: true,
+        }).then((result) => {
+            if (result.isConfirmed) {
+                deleteMenuMutation.mutate(parseInt(searchParams.get("menuId")));
+                Swal.fire("메뉴가 성공적으로 삭제되었습니다.", "", "success");
+            }
+        });
+    };
+
+    const handleCancelClick = () => {
+        navigate("/admin/getmenu");
     };
 
     const handleResetClick = () => {
-        menuName.setValue(() => "");
-        menuCategoryId.setValue(() => "");
-        menuPrice.setValue(() => "");
-        menuCal.setValue(() => "");
-        menuImgUrl.setValue(() => "");
+        menuName.setValue(() => menu?.menuName);
+        menuPrice.setValue(() => menu?.menuPrice);
+        menuCal.setValue(() => menu?.menuCal);
+        menuImgUrl.setValue(() => menu?.menuImgUrl);
     };
 
     return (
-        <AdminPageLayout>
+        <PageModal>
             <div css={s.layout}>
                 <div css={s.header}>
-                    <div css={s.title}>메뉴 추가</div>
+                    <div css={s.title}>메뉴 관리</div>
                 </div>
                 <div css={s.main}>
                     <div css={s.resetLayout}>
@@ -194,14 +214,7 @@ function AdminMenuAdd() {
                         <div css={s.addBox}>
                             <div css={s.imgLayout}>
                                 <div css={s.imgBox}>
-                                    <img
-                                        src={
-                                            !menuImgUrl.value
-                                                ? noImg
-                                                : menuImgUrl.value
-                                        }
-                                        alt=""
-                                    />
+                                    <img src={menuImgUrl.value} alt="" />
                                 </div>
                             </div>
                             <div css={s.inputLayout}>
@@ -244,7 +257,7 @@ function AdminMenuAdd() {
                                     </div>
                                     <div css={s.input}>
                                         <input
-                                            type="number"
+                                            type="text"
                                             placeholder="가격"
                                             value={menuPrice.value}
                                             onChange={menuPrice.handleOnChange}
@@ -252,7 +265,7 @@ function AdminMenuAdd() {
                                     </div>
                                     <div css={s.input}>
                                         <input
-                                            type="number"
+                                            type="text"
                                             placeholder="칼로리"
                                             value={menuCal.value}
                                             onChange={menuCal.handleOnChange}
@@ -262,7 +275,7 @@ function AdminMenuAdd() {
                                         <span>
                                             <input
                                                 type="text"
-                                                value={menuImgUrl.value}
+                                                value={menu?.menuImgUrl}
                                                 onChange={
                                                     menuImgUrl.handleOnChange
                                                 }
@@ -291,17 +304,33 @@ function AdminMenuAdd() {
                 </div>
                 <div css={s.footer}>
                     <div css={s.buttonLayout}>
-                        <button
-                            css={s.saveButton}
-                            onClick={() => handleSubmitClick()}
-                        >
-                            저장
-                        </button>
+                        <div>
+                            <button
+                                css={s.saveButton}
+                                onClick={handleCancelClick}
+                            >
+                                취소
+                            </button>
+                        </div>
+                        <div>
+                            <button
+                                css={s.saveButton}
+                                onClick={() => handleDeleteClick()}
+                            >
+                                삭제하기
+                            </button>
+                            <button
+                                css={s.saveButton}
+                                onClick={() => handleUpdateClick()}
+                            >
+                                수정하기
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </AdminPageLayout>
+        </PageModal>
     );
 }
 
-export default AdminMenuAdd;
+export default AdminMenuUpdate;

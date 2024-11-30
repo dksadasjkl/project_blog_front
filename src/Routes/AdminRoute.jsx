@@ -9,6 +9,7 @@ import AdminMainPage from '../pages/AdminMainPage/AdminMainPage';
 import AdminSalesPage from '../pages/AdminSalesPage/AdminSalesPage';
 import AdminPayPage from '../pages/AdminPayPage/AdminPayPage';
 import AdminMenuAdd from '../pages/AdminMenuAdd/AdminMenuAdd';
+import AdminMenuSearch from '../pages/AdminMenuSearch/AdminMenuSearch';
 
 function AdminRoute(props) {
     return (
@@ -19,8 +20,8 @@ function AdminRoute(props) {
             <Route path="/sale/*" element={<AdminSalesPage />} />
             <Route path="/pay" element={<AdminPayPage />} />
             <Route path="/add" element={<AdminMenuAdd />} />
-            {/* <Route path="/getmenu/*" element={<AdminMenuSearch />} />
-            <Route path="/passwordedit" element={<PasswordEditPage />} />
+            <Route path="/getmenu/*" element={<AdminMenuSearch />} />
+            {/* <Route path="/passwordedit" element={<PasswordEditPage />} />
             <Route path="/usersearch" element={<AdminUserSearch />} />
             <Route path="/feedback" element={<AdminFeedbackPage />} />
             <Route path="/signup" element={<OAuth2SignupPage />} />
