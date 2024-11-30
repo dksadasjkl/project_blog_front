@@ -16,7 +16,7 @@ import AdminPageLayout from "../../components/AdminPageLayout/AdminPageLayout";
 import noImg from "../../assets/noImg.webp";
 
 function AdminMenuAdd() {
-    // useAuthCheck();
+    useAuthCheck();
     const [selectedOption, setSelectedOption] = useState(null);
     const [categoryOptions, setCategoryOptions] = useState([]);
     const [noMinus, setNoMinus] = useState();
