@@ -7,6 +7,7 @@ import OAuth2Route from './OAuth2Route';
 import OAuth2SignupPage from '../pages/OAuth2SignupPage/OAuth2SignupPage';
 import AdminMainPage from '../pages/AdminMainPage/AdminMainPage';
 import AdminSalesPage from '../pages/AdminSalesPage/AdminSalesPage';
+import AdminPayPage from '../pages/AdminPayPage/AdminPayPage';
 
 function AdminRoute(props) {
     return (
@@ -15,14 +16,14 @@ function AdminRoute(props) {
             <Route path="/select/menu" element={<SelectAdminPage />} />
             <Route path="/main" element={<AdminMainPage />} />
             <Route path="/sale/*" element={<AdminSalesPage />} />
-            {/* <Route path="/pay" element={<AdminPayPage />} />
-            <Route path="/add" element={<AdminMenuAdd />} />
+            <Route path="/pay" element={<AdminPayPage />} />
+            {/* <Route path="/add" element={<AdminMenuAdd />} />
             <Route path="/getmenu/*" element={<AdminMenuSearch />} />
             <Route path="/passwordedit" element={<PasswordEditPage />} />
             <Route path="/usersearch" element={<AdminUserSearch />} />
             <Route path="/feedback" element={<AdminFeedbackPage />} />
             <Route path="/signup" element={<OAuth2SignupPage />} />
-            <Route path="/setting" element={<AdminStoreSettingPage />} /> */}
+            <Route path="/setting" element={<AdminStoreSettingPage />} />  */}
         </Routes>
     );
 }
