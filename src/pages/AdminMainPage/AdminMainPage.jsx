@@ -61,7 +61,7 @@ function AdminMainPage() {
     });
 
     const handlebackButtonClick = () => {
-        navigate("/selectmenu");
+        navigate("/admin/select/menu");
         setCheckPassword(() => false);
     };
 

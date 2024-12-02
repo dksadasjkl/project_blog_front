@@ -35,7 +35,7 @@ function PlayMap() {
     };
     useEffect(() => {
         setMap(() => (
-            <LoadScript googleMapsApiKey="AIzaSyBfW0NY0PPlXdijK-njQI4HbCDrDZwy5Ko">
+            <LoadScript  googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
                 <GoogleMap
                     mapContainerStyle={containerStyle}
                     center={playLocation}

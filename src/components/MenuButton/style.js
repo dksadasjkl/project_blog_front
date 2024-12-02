@@ -1,7 +1,7 @@
 import { css } from "@emotion/react";
 
 export const menuLayout = css`
-    height: 100%;
+    height: 250px;
     /* & > button:nth-of-type(1) {
         margin-right: 15px;
         margin-bottom: 15px;
@@ -45,7 +45,7 @@ export const imglayout = css`
     border-radius: 10px;
 
     & > img {
-        width: 100%;
+        width: 50%;
     }
 `;
 

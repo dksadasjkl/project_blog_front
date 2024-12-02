@@ -70,6 +70,7 @@ function MenuPage(props) {
                         {bigMode ? <BigMenuListComponent /> : <MenuList />}
                     </div>
                 </div>
+                
                 <div css={s.orderLayout}>
                     <div css={s.header}>
                         <h1>Order</h1>

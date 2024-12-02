@@ -54,7 +54,7 @@ export const imglayout = css`
     }
 
     & > img {
-        width: 100%;
+        width: 50%;
         background-color: transparent;
     }
 `;

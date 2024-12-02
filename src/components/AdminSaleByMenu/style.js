@@ -90,7 +90,7 @@ export const imgBox = css`
     border-right: 2px solid #dbdbdb;
 
     & > img {
-        width: 100%;
+        width: 50%;
     }
 `;
 

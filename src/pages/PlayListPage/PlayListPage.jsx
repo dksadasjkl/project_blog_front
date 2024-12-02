@@ -16,7 +16,6 @@ function PlayListPage() {
     const navigate = useNavigate();
 
 
-
     const playListDataQuery = useQuery(
         ["playListDataQuery"],
         () =>

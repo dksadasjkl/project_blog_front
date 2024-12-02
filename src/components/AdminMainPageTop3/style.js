@@ -49,7 +49,7 @@ export const top3 = css`
     align-items: center;
     justify-content: center;
     & > img {
-        width: 100%;
+        width: 33%;
     }
 `;
 
