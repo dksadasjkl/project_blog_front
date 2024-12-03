@@ -75,7 +75,7 @@
 <br/>
 
 <p align="right" dir="auto">
-<!-- <a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a> -->
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 
@@ -156,7 +156,7 @@
 -   DB 설계
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -170,7 +170,7 @@
     <a href="https://github.com/dksadasjkl/project_kiosk_back/commits/main/"> GitHub Commits(Back) </a>
     -  커밋 리스트
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
     
 <br/>
@@ -187,7 +187,7 @@
 -   기본적으로 master branch에 대한 규칙만 정확하게 정립되어 있다면 나머지 가지들에 대해서는 특별한 관여를 하지 않으며 pull request기능을 사용하도록 권장하였습니다.
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -300,7 +300,7 @@
 </div>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -396,7 +396,7 @@
 | web-vitals                                                                  | 사용자의 웹 바이탈 항목 측정               |
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -408,7 +408,7 @@
 ![스크린샷 2024-05-07 오전 11 43 05](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/dba81999-e57a-40ee-a4fe-b4b2a2702241)
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -425,7 +425,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ![ERD 다이어그램](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/5074a2e8-503f-48f6-9b48-dfd2a56f7938)
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -442,7 +442,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ![관리자 메뉴 구조도](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8077db0a-0d1b-4ee8-87bb-4f4117c9f527)
 
 <p align="right" dir="auto">
-<!-- <a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a> -->
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 <br/>
@@ -561,7 +561,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 </div>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
 
 </br>
