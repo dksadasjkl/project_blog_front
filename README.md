@@ -32,8 +32,6 @@
 
 ## ✨ 프로젝트 소개 [Notion](https://mangrove-comic-a17.notion.site/Team-Project-dc414362131b4ee799fa852737236fa9?pvs=4)
 
-![header](https://github.com/Novel-Ideas/gumeonggage-back/assets/106566223/557cd871-61f7-43cc-b4a1-0f19b6e3bfcc)
-
 ### 🌟 제목
 
 -   매장용 키오스크 개발
