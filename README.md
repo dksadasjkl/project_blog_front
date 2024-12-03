@@ -167,7 +167,7 @@
 ## 📚 프로젝트 진행 상황 관리
 
 -   <a href="https://github.com/dksadasjkl/project_kiosk_front/commits/main/">📋 GitHub Commits(Front) & </a>
-    <a href="https://github.com/dksadasjkl/project_kiosk_back/commits/main/"> GitHub Commits(Back) </a>
+-   <a href="https://github.com/dksadasjkl/project_kiosk_back/commits/main/"> GitHub Commits(Back) </a>
     -  커밋 리스트
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
