@@ -425,7 +425,7 @@
 
 ### 🛰 API 명세서
 
-https://mangrove-comic-a17.notion.site/da55c3b2cb47486eb592dbc297ae8e01?v=f865787f598c4dec933cb6990c5719cd&pvs=4
+https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000c5ef9146d
 
 ### 📐 ERD 설계도
 
