@@ -417,7 +417,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 
 ### 🧑‍🤝‍🧑 사용자 메뉴 구조도
 
-![사용자 메뉴 구조도](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/cf4b1b29-41a2-49b3-bd88-e5b296974160)
+![사용자 메뉴 구조도](https://github.com/dksadasjkl/project_kiosk_front/blob/main/src/assets/%EB%B9%A4%EC%A7%9D%ED%95%91%20%EB%A7%9D%EA%B3%A0%20%EB%B0%80%ED%81%AC%20%EC%89%90%EC%9D%B4%ED%81%AC.jpg)
 
 ### 👷‍♂️ 관리자 메뉴 구조도
 
