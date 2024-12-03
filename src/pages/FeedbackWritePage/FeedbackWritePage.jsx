@@ -22,7 +22,7 @@ function FeedbackWritePage() {
         onSuccess: (response) => {
             Swal.fire({
                 title: "감사합니다~!",
-                text: `더욱 성장하는 ${principalData.data.tradename}가 되겠습니다!`,
+                text: `더욱 성장하는 ${principalData.data.tradeName}가 되겠습니다!`,
                 icon: "success",
                 confirmButtonColor: "rgb(252, 10, 86)",
                 confirmButtonText: "확인",

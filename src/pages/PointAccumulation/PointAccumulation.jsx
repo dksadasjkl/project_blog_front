@@ -9,13 +9,13 @@ import PageModal from "../../components/PageModal/PageModal";
 import { orderRequest } from "../../apis/api/menuApi";
 import { portOnePayRequest } from "../../apis/api/portOneApi";
 import { totalPayPriceState } from "../../atoms/totalPayPriceAtom";
-
 function PointAccumulation() {
     const queryClient = useQueryClient();
     const principalData = queryClient.getQueryData("principalQuery");
     const Swal = require("sweetalert2");
     const navigate = useNavigate();
-    const [orderMenuList, setOrderMenuList] = useRecoilState(orderMenuListState);
+    const [orderMenuList, setOrderMenuList] =
+        useRecoilState(orderMenuListState);
     const [totalPrice, setTotalPrice] = useRecoilState(totalPayPriceState);
 
     const orderRequestMutation = useMutation({

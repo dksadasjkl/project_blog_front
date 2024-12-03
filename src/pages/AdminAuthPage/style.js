@@ -32,7 +32,7 @@ export const signinBox = css`
 
 export const logoBox = css`
     width: 400px;
-    height: 170px;
+    height: 180px;
     padding-top: 25px;
     overflow: hidden;
     display: flex;

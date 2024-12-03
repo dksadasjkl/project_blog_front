@@ -27,6 +27,8 @@ function PointPhoneNumber() {
 
     console.log(inputValue)
 
+    
+
     // ------------ 회원 조회 쿼리 -----------------
     const searchUserQuery = useQuery(["searchUserQuery"], searchUserRequest, {
         retry: 0,
@@ -102,7 +104,7 @@ function PointPhoneNumber() {
         mutationKey: "savePointMutation",
         mutationFn: savePointRequest,
         onSuccess: (response) => {
-            console.log(response.data);
+            console.log("Save point response:", response.data);
             if (response.data === 1) {
                 Swal.fire({
                     title: "적립 완료!",
