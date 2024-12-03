@@ -1,4 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=500&section=header&text=GUMEONG%20GAGE&fontSize=100)
 
 # 🔖 목차
 
@@ -37,19 +36,15 @@
 
 ### 🌟 제목
 
--   매장용 키오스크 "구멍가게" 개발
+-   매장용 키오스크 개발
 
 ### 🚀 목적
 
 -   학습 내용의 복습 및 활용, 팀원들 간 협업과 과정 이해
 
-### 🤝 팀 프로젝트
-
--   팀원 4명
-
 ### 📆 제작 기간
 
--   2024.04.01 ~ 2024.05.17
+-   2024.11.06 ~ 2024.12.02
 
 ### 🔎 주요 기능
 
@@ -86,149 +81,80 @@
 <br/>
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<!-- <a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a> -->
 </p>
 
-## 👥 팀원 소개
 
-<div align="center">
-<img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/6339b2ff-101b-4316-98b1-fe5e53bda768" />
-<img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/344a9254-8f2f-439e-af78-addcb748c4e9" />
-<table >
-    <thead>
-        <tr>
-            <th align="center"><span>이동윤(팀장)</span></th>
-            <th align="center"><span>이지언</span></th>
-            <th align="center"><span>서현욱</span></th>
-            <th align="center"><span>김종현</span></th>
-        </tr>
-    </thead>
-    <tbody>
-        <td align="center">
-            <a href="https://github.com/dongyoon7212">
-                <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="150" height="150" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/ez0603">
-                <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/37d1fc3b-f435-44d0-adb4-0404c1b71837" width="150" height="150" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/seohyeonwook">
-                <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/b015e01d-1078-428e-a713-a92b23e4ff6a" width="150" height="150" />
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/jayhyeon12">
-                <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/ffb0f7a2-6df1-4935-8b3f-036cf89e344b" width="150" height="150" />
-            </a>
-        </td>
-    </tbody>
-</table>
-</div>
+## 💼 작업
 
-<p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
-</p>
-
-## 💼 역할 분담
-
-<h3> 🛩 팀장: 이동윤 </h3>
+<h3> 🛩 서창현 </h3>
 
 ### 🔧 Back-End
 
 -   관리자 회원가입
 -   관리자 로그인
+-   관리자 점포 로고 변경
+-   관리자 비밀번호 변경
+-   관리자 비밀번호 확인
 -   매출 전체 조회
 -   제품별 매출 조회
 -   메뉴 카테고리 조회
--   사용자 포인트 조회
--   사용자 포인트 적립 및 사용
 -   점포 설정
-
-### 🖥 Front-End
-
--   관리자 로그인 페이지
--   포인트 메인 페이지
--   포인트 적립 페이지
--   포인트 사용 페이지
--   메뉴 페이지
--   관리자 메인 페이지
--   관리자 점포 매출 페이지
--   관리자 메뉴 추가 페이지
--   관리자 결제 내역 페이지
--   관리자 점포 설정 페이지
-
-### etc.
-
--   프로젝트 최종 발표
-
-<h3> 👩‍💻 팀원: 이지언 </h3>
-
-### 🔧 Back-End
-
--   피드백 저장
--   피드백 조회
--   피드백 카운트
--   관리자 점포 로고 변경
--   관리자 비밀번호 확인
-
-### 🖥 Front-End
-
--   관리자 메뉴 선택 페이지
--   사용자 매장, 포장 선택 페이지
--   메뉴 페이지
--   피드백 메인 페이지
--   관광지 추천 메인 페이지
--   관광지 리스트 페이지
--   관리자 피드백 페이지
--   관리자 로고 변경 페이지
--   결제방법 선택 페이지
-
-<h3> 🧑‍💻 팀원: 서현욱 </h3>
-
-### 🔧 Back-End
-
--   메뉴 페이지
--   OAuth2 회원가입
--   OAuth2 계정통합
--   관리자 비밀번호 변경
--   사용자 회원가입
--   사용자 회원탈퇴
--   사용자 전체 조회
 -   점포 이름 변경
-
-### 🖥 Front-End
-
--   사용자 메인 페이지
--   관리자 회원가입 페이지
--   관리자 비밀번호 변경 페이지
--   OAuth2 메인 페이지
--   OAuth2 로그인 페이지
--   OAuth2 회원가입 페이지
--   OAuth2 계정 통합 페이지
-
-<h3> 🧑‍💻 팀원: 김종현 </h3>
-
-### 🔧 Back-End
-
+-   사용자 전체 조회
+-   메뉴 페이지
 -   메뉴 추가
 -   메뉴 전체 조회
 -   메뉴 수정
 -   메뉴 삭제
 -   메뉴 주문
+-   사용자 포인트 조회
+-   사용자 포인트 적립 및 사용
+-   피드백 저장
+-   피드백 조회
+-   피드백 카운트
+-   사용자 회원가입
+-   사용자 회원탈퇴
+-   OAuth2 회원가입
+-   OAuth2 계정통합
+
+
 
 ### 🖥 Front-End
 
--   메뉴 페이지
--   피드백 작성 페이지
--   피드백 작성 완료 페이지
+-   관리자 메인 페이지
+-   관리자 로그인 페이지
+-   관리자 점포 매출 페이지
+-   관리자 메뉴 추가 페이지
+-   관리자 결제 내역 페이지
+-   관리자 점포 설정 페이지
+-   관리자 메뉴 선택 페이지
+-   관리자 로고 변경 페이지
+-   관리자 회원가입 페이지
+-   관리자 비밀번호 변경 페이지
+-   관리자 피드백 페이지
 -   관리자 메뉴 관리 페이지
 -   관리자 메뉴 수정 페이지
 -   관리자 회원 관리 페이지
+-   사용자 매장, 포장 선택 페이지
+-   메뉴 페이지
+-   포인트 메인 페이지
+-   포인트 적립 페이지
+-   포인트 사용 페이지
+-   피드백 메인 페이지
+-   관광지 리스트 페이지
+-   관광지 추천 메인 페이지
+-   결제방법 선택 페이지
+-   사용자 메인 페이지
+-   OAuth2 메인 페이지
+-   OAuth2 로그인 페이지
+-   OAuth2 회원가입 페이지
+-   OAuth2 계정 통합 페이지
+-   피드백 작성 페이지
+-   피드백 작성 완료 페이지
 
-> 공동 작업
+
+> 기타 작업
 
 -   디자인 도안 작업
 -   Front 명세서 작성
@@ -242,30 +168,7 @@
 <br/>
 <br/>
 
-## 🤝 협업 방식
 
-1. 해당하는 업무에 대해 GitHub Issue를 생성합니다.
-2. GitHub Actions에 의해 자동으로 생성된 브랜치로 전환하여 해당하는 업무를 진행합니다.
-3. 작업을 완료하면 각자의 생성한 브랜치에서 코드를 push합니다.
-4. PR(Pull Request) 을 오픈합니다.
-
--   PR(pull request)을 오픈하면, 팀장이 코드를 확인하고 승인합니다.
-
--   코드 리뷰 & 승인은 팀장이 일임했지만, 팀원들의 코드 스타일은 다같이 공유하며 서로 잘 이해할 수 있도록 다 같이 정리하는 시간을 가지도록 하였습니다.
-
-*   컨펌 담당
-    -   지언 : <code>동윤</code>
-    -   현욱 : <code>동윤</code>
-    -   종현 : <code>동윤</code>
-
-5. PR이 merge되어 close 되면 해당 이슈는 자동으로 Done상태로 변경됩니다.
-
-<p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
-</p>
-
-<br/>
-<br/>
 
 ## 📚 프로젝트 진행 상황 관리
 
@@ -548,7 +451,7 @@ https://mangrove-comic-a17.notion.site/da55c3b2cb47486eb592dbc297ae8e01?v=f86578
 ![관리자 메뉴 구조도](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8077db0a-0d1b-4ee8-87bb-4f4117c9f527)
 
 <p align="right" dir="auto">
-<a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a>
+<!-- <a href="https://github.com/Novel-Ideas/gumeonggage-front">TOP 🔼</a> -->
 </p>
 
 <br/>
@@ -678,7 +581,7 @@ https://mangrove-comic-a17.notion.site/da55c3b2cb47486eb592dbc297ae8e01?v=f86578
 ### 서창현
 
 <div align="center">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="200" height="200" />
+<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="200" height="200" /> -->
 </div>
 <span>이번 한 달 반의 기간동안 프로젝트를 진행하게 되면서 많은 것을 느꼈습니다. </br>먼저 이번 프로젝트에서 팀장을 맡게 되면서 책임감을 느끼게 되었고 제가 조금 더 열심히 해서 프로젝트를 잘 마무리 하고 싶다고 생각했습니다. 그 과정에서 팀을 이끌어가기 위해 어떻게 노력해야 할지 고민을 많이 했습니다. 팀원들 각자 맡은 부분을 수행하면서 막히는 부분은 함께 고민하고 제가 아는 대로 알려주며 진행하였습니다. 그렇게 팀원과 저는 복습의 효과를 봄과 동시에 새롭게 알게 되는 부분도 생겨나 서로 윈윈이 되며 프로젝트를 진행하였습니다. </br>또 팀 프로젝트기에 팀원 간의 소통을 중요시 생각했습니다. 그래서 팀원들이 각자의 의견을 적극적으로 주장하고 서로 피드백을 해줄 수 있도록 분위기를 조성하였습니다. </br>이번 프로젝트를 진행하면서 팀장이 아닌 팀원으로서 느낀 부분도 많았습니다. 특히 배포과정에서 공부를 더 해야겠다고 느꼈습니다. 개발 하면서 가장 어려웠던 부분이 배포하는 단계였는데 처음으로 무중단 배포를 해보는 것이라 생소하기도 했고 특히 EC2를 이용하여 DOCKER 컨테이너에 서버를 실행시키는 것이 이론적으로는 이해를 했지만 막상 실습을 할때는 막히는 부분이 많았기 때문입니다. </br>또한 프로젝트를 기획하고 서버를 구축하기 전 데이터베이스를 설계할 때 데이터 정규화의 중요성을 느꼈습니다. 데이터 정규화가 제대로 되지 않은 데이터베이스를 설계하면 불필요한 데이터가 삽입되거나 원하는 데이터를 가져오는데 쉽지 않아 심하면 데이터베이스를 다시 설계 해야 한다는 것을 배웠습니다. </br>이렇게 이번 프로젝트에서 많은 것을 배우고 느끼고 하면서 다음 프로젝트를 진행할 때는 좀 더 잘할 수 있을 거 같다는 자신감도 생겨났습니다. 그리고 잘 따라와 준 팀원들에게 고맙다라는 말을 전해주고 싶습니다.
 </span>
@@ -688,7 +591,7 @@ https://mangrove-comic-a17.notion.site/da55c3b2cb47486eb592dbc297ae8e01?v=f86578
 ### 서창현2
 
 <div align="center">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/37d1fc3b-f435-44d0-adb4-0404c1b71837" width="200" height="200" />
+<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/37d1fc3b-f435-44d0-adb4-0404c1b71837" width="200" height="200" /> -->
 </div>
 <span>첫 팀 프로젝트라 협업, 명세서, 구조, 진행 방향 등 걱정하는 게 많았는데 기획하는 과정 동안 소통하며 함께 작업하는 동안 협업이 중요하다는 걸 더욱 깨달았습니다.
 프로젝트를 진행하며 맡은 부분을 구현하며 동기, 비동기 부분을 포함하며 모르던 부분을 공부하며 알던 것도 다시 공부하는 시간을 가질 수 있었습니다. 그리고 내가 아닌 다른 사람의 코드를 보면서 처음은 코드를 해석하는 부분이 어려운 부분도 있었지만 이런 식으로도 가능하구나를 깨달을 수 있었습니다.
