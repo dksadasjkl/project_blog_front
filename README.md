@@ -386,8 +386,7 @@
 
 ## 📆 프로젝트 일정
 
-![스크린샷 2024-05-07 오전 11 43 01](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/2dcefa79-71da-4f61-ab5a-dba055d17ad4)
-![스크린샷 2024-05-07 오전 11 43 05](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/dba81999-e57a-40ee-a4fe-b4b2a2702241)
+@@@@@@@@@@@@@@@@이미지 2개 업로드
 
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
@@ -404,7 +403,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 
 ### 📐 ERD 설계도
 
-![ERD 다이어그램](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/5074a2e8-503f-48f6-9b48-dfd2a56f7938)
+![ERD 다이어그램](https://github.com/user-attachments/assets/509bba6e-dabb-4dbf-99af-662442f57ee4)
 
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
@@ -417,11 +416,11 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 
 ### 🧑‍🤝‍🧑 사용자 메뉴 구조도
 
-![사용자 메뉴 구조도](https://github.com/dksadasjkl/project_kiosk_front/blob/main/src/assets/%EB%B9%A4%EC%A7%9D%ED%95%91%20%EB%A7%9D%EA%B3%A0%20%EB%B0%80%ED%81%AC%20%EC%89%90%EC%9D%B4%ED%81%AC.jpg)
+![사용자 메뉴 구조도](https://github.com/user-attachments/assets/fe29e20c-01cf-4364-9556-c67b13a44639)
 
 ### 👷‍♂️ 관리자 메뉴 구조도
 
-![관리자 메뉴 구조도](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8077db0a-0d1b-4ee8-87bb-4f4117c9f527)
+![관리자 메뉴 관리도](https://github.com/user-attachments/assets/85d7c1c4-de00-4473-a9ad-0d8889eed9ea)
 
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
