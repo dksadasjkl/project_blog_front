@@ -432,7 +432,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ### 🔐 관리자 계정 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/78b652d9-54cc-47e4-86ce-9d6d2d747096" align="center" width="100%"/> -->
+ <img src="https://github.com/user-attachments/assets/5b340b20-35dd-4537-90f2-f479f1540574" align="center" width="100%"/> 
     <b>로그인 화면</b>
 </div>
 <br/>
