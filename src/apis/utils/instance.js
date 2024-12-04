@@ -1,7 +1,8 @@
 import axios from "axios";
+import getServerAddress from "../../constants/serverAddress";
 
 const instance = axios.create({
-    baseURL: "http://localhost:8080",
+    baseURL: getServerAddress(),
     headers: {
         Authorization: "Bearer " + localStorage.getItem("AccessToken")
     }
