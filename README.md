@@ -385,9 +385,7 @@
 <br/>
 
 ## 📆 프로젝트 일정
-
-@@@@@@@@@@@@@@@@이미지 2개 업로드
-
+![image](https://github.com/user-attachments/assets/7f6f2d6f-db0a-422f-9b1a-8d94842de4ad)
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
