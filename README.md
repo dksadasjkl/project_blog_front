@@ -1,4 +1,4 @@
-
+![포인트 사용 결제화면](https://github.com/user-attachments/assets/51040af8-8c66-4fea-a81d-c1de707dd56c)
 # 🔖 목차
 
 > ## [✨ 프로젝트 소개](#-프로젝트-소개-notion)
@@ -437,43 +437,48 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/0b3f8595-a078-4318-8733-09999dd1c76d" align="center" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/d13c8c91-379f-42f8-bfc2-8d05385bc4ff" align="center" width="100%"/>
     <b>로그아웃 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/bb8c4ddd-907d-4176-9d29-3258eae0a5ae" align="center" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/604d7d70-0fa9-4b35-b9f9-e5a0cb267980" align="center" width="100%"/>
     <b>회원가입 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/285eeebe-a43f-4415-af11-0eeffb5ce75c" align="center" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/a5e37252-1003-4be5-82d3-db3dc87ce6c0" align="center" width="100%"/>
+    <b>OAuth2 카카오 로그인 화면</b>
+</div>
+<br/>
+<div align="center" dir="auto">
+    <img src="https://github.com/user-attachments/assets/69a1cd82-f532-4ed3-a5f7-4555845dfa03" align="center" width="100%"/>
     <b>OAuth2 카카오 계정통합 화면</b>
 </div>
 
 ### 🍔 주문 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/ae645259-b387-4786-8e59-310bc95e28f2" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/ae645259-b387-4786-8e59-310bc95e28f2" width="100%"/>
     <b>주문 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/967cca31-340c-4725-acea-287457104b58" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/efaeb6c9-231d-4abc-8761-b191c7ab2e66" width="100%"/>
     <b>큰글씨 모드 주문 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/c53f6ce1-f9df-4ec2-888f-43db0b6c8e89" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/0cbb5356-8d3d-424f-ad85-9e932e0f4300" width="100%"/>
     <b>포인트 적립 결제화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/b57232fd-74b6-4416-a988-4139407fe249" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/f9ba3024-2cb7-4de4-8813-349768b348dd" width="100%"/>
     <b>포인트 사용 결제화면</b>
 </div>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/f2cb1cc8-3f14-4cce-9c2d-34003626bcfb" width="50%" /> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/f2cb1cc8-3f14-4cce-9c2d-34003626bcfb" width="50%" />
     <br/>
     <b>카카오페이 결제 화면</b>
 </div>
@@ -481,61 +486,61 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ### 📨 피드백 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8f228aed-e36a-484e-bf38-1f4c326668f7" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8f228aed-e36a-484e-bf38-1f4c326668f7" width="100%"/>
     <b>피드백 작성 화면</b>
 </div>
 
 ### 🏖 관광지 추천 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/6b81d711-e5bc-4457-8283-5bc337d4cb82" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/6b81d711-e5bc-4457-8283-5bc337d4cb82" width="100%"/>
     <b>관광지 추천 리스트 및 지도 화면</b>
 </div>
 
 ### 🛠 관리자 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/2bcb3cb7-00da-4bdf-a927-63b7d5eda19c" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/2bcb3cb7-00da-4bdf-a927-63b7d5eda19c" width="100%"/>
     <b>관리자 모드 진입 및 메인 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/77e261b0-0287-4186-861b-96498588793f" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/77e261b0-0287-4186-861b-96498588793f" width="100%"/>
     <b>점포 매출 조회 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/d4658ac1-4972-4e03-bc73-a731471fbf78" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/d4658ac1-4972-4e03-bc73-a731471fbf78" width="100%"/>
     <b>결제내역 조회 및 결제 취소화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/c057c13a-aa9c-4e0e-92de-d01d6dd600cb" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/c057c13a-aa9c-4e0e-92de-d01d6dd600cb" width="100%"/>
     <b>메뉴 추가 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/b1c25fb8-1047-4144-ba69-7290033cbfab" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/b1c25fb8-1047-4144-ba69-7290033cbfab" width="100%"/>
     <b>메뉴 수정 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/1209a493-57a7-4df5-9060-ee3b42dbf235" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/1209a493-57a7-4df5-9060-ee3b42dbf235" width="100%"/>
     <b>피드백 조회 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/39fec679-0c6a-4f78-8925-fdc26cdce27d" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/39fec679-0c6a-4f78-8925-fdc26cdce27d" width="100%"/>
     <b>회원조회 및 관리 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/9d108c01-c398-4dd3-a518-051d3fced191" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/9d108c01-c398-4dd3-a518-051d3fced191" width="100%"/>
     <b>점포 설정 및 점포 이름 변경 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/33ab6ec0-4927-4992-b694-367fb6a2ebbf" width="100%"/> -->
+    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/33ab6ec0-4927-4992-b694-367fb6a2ebbf" width="100%"/>
     <b>점포 로고 변경 화면</b>
 </div>
 
@@ -551,7 +556,6 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ### 서창현
 
 <div align="center">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="200" height="200" /> -->
 </div>
 <span>
 <p>이번 한 달 동안 프로젝트를 진행하면서 많은 것을 배울 수 있었습니다. 프로젝트를 진행하면서 책임감을 느꼈고, 그 책임을 다하기 위해 최선을 다하겠다는 마음가짐을 가졌습니다. 프로젝트를 추진하는 과정에서 여러 가지 어려움이 있었지만, 하나씩 해결해 나가며 성장하는 소중한 경험을 할 수 있었습니다.</p>
