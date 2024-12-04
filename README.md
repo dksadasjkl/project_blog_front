@@ -1,4 +1,3 @@
-
 # 🔖 목차
 
 > ## [✨ 프로젝트 소개](#-프로젝트-소개-notion)
@@ -385,10 +384,7 @@
 <br/>
 
 ## 📆 프로젝트 일정
-
-![스크린샷 2024-05-07 오전 11 43 01](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/2dcefa79-71da-4f61-ab5a-dba055d17ad4)
-![스크린샷 2024-05-07 오전 11 43 05](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/dba81999-e57a-40ee-a4fe-b4b2a2702241)
-
+![image](https://github.com/user-attachments/assets/7f6f2d6f-db0a-422f-9b1a-8d94842de4ad)
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
 </p>
@@ -404,7 +400,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 
 ### 📐 ERD 설계도
 
-![ERD 다이어그램](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/5074a2e8-503f-48f6-9b48-dfd2a56f7938)
+![ERD 다이어그램](https://github.com/user-attachments/assets/509bba6e-dabb-4dbf-99af-662442f57ee4)
 
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
@@ -417,11 +413,11 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 
 ### 🧑‍🤝‍🧑 사용자 메뉴 구조도
 
-![사용자 메뉴 구조도](https://github.com/dksadasjkl/project_kiosk_front/blob/main/src/assets/%EB%B9%A4%EC%A7%9D%ED%95%91%20%EB%A7%9D%EA%B3%A0%20%EB%B0%80%ED%81%AC%20%EC%89%90%EC%9D%B4%ED%81%AC.jpg)
+![사용자 메뉴 구조도](https://github.com/user-attachments/assets/fe29e20c-01cf-4364-9556-c67b13a44639)
 
 ### 👷‍♂️ 관리자 메뉴 구조도
 
-![관리자 메뉴 구조도](https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8077db0a-0d1b-4ee8-87bb-4f4117c9f527)
+![관리자 메뉴 관리도](https://github.com/user-attachments/assets/85d7c1c4-de00-4473-a9ad-0d8889eed9ea)
 
 <p align="right" dir="auto">
 <a href="https://github.com/dksadasjkl/project_kiosk_front">TOP 🔼</a>
@@ -435,110 +431,116 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ### 🔐 관리자 계정 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/78b652d9-54cc-47e4-86ce-9d6d2d747096" align="center" width="100%"/> -->
+ <img src="https://github.com/user-attachments/assets/5b340b20-35dd-4537-90f2-f479f1540574" align="center" width="100%"/> 
     <b>로그인 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/0b3f8595-a078-4318-8733-09999dd1c76d" align="center" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/d13c8c91-379f-42f8-bfc2-8d05385bc4ff" align="center" width="100%"/>
     <b>로그아웃 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/bb8c4ddd-907d-4176-9d29-3258eae0a5ae" align="center" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/604d7d70-0fa9-4b35-b9f9-e5a0cb267980" align="center" width="100%"/>
     <b>회원가입 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/285eeebe-a43f-4415-af11-0eeffb5ce75c" align="center" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/a5e37252-1003-4be5-82d3-db3dc87ce6c0" align="center" width="100%"/>
+    <b>OAuth2 카카오 로그인 화면</b>
+</div>
+<br/>
+<div align="center" dir="auto">
+    <img src="https://github.com/user-attachments/assets/69a1cd82-f532-4ed3-a5f7-4555845dfa03" align="center" width="100%"/>
     <b>OAuth2 카카오 계정통합 화면</b>
 </div>
 
 ### 🍔 주문 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/ae645259-b387-4786-8e59-310bc95e28f2" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/ab7d66bd-e0af-4212-a3a5-7d6cbc2e102a" width="100%"/>
     <b>주문 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/967cca31-340c-4725-acea-287457104b58" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/efaeb6c9-231d-4abc-8761-b191c7ab2e66" width="100%"/>
     <b>큰글씨 모드 주문 화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/c53f6ce1-f9df-4ec2-888f-43db0b6c8e89" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/0cbb5356-8d3d-424f-ad85-9e932e0f4300" width="100%"/>
     <b>포인트 적립 결제화면</b>
 </div>
 <br/>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/b57232fd-74b6-4416-a988-4139407fe249" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/f9ba3024-2cb7-4de4-8813-349768b348dd" width="100%"/>
     <b>포인트 사용 결제화면</b>
 </div>
+
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/f2cb1cc8-3f14-4cce-9c2d-34003626bcfb" width="50%" /> -->
+    <img src="https://github.com/user-attachments/assets/e11ca642-4333-457d-a2d3-596b641ccffb" width="50%" />
     <br/>
-    <b>카카오페이 결제 화면</b>
+    <b>카카오페이 모바일 결제 화면</b>
 </div>
 
 ### 📨 피드백 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8f228aed-e36a-484e-bf38-1f4c326668f7" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/16028426-b862-4043-9592-0147ac607e65" width="100%"/>
     <b>피드백 작성 화면</b>
 </div>
 
 ### 🏖 관광지 추천 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/6b81d711-e5bc-4457-8283-5bc337d4cb82" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/06220529-47d1-476b-a8e7-429eccdf7221" width="100%"/>
     <b>관광지 추천 리스트 및 지도 화면</b>
 </div>
 
 ### 🛠 관리자 화면
 
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/2bcb3cb7-00da-4bdf-a927-63b7d5eda19c" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/c82e3206-b273-49c0-af9e-49964fb14ef4" width="100%"/>
     <b>관리자 모드 진입 및 메인 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/77e261b0-0287-4186-861b-96498588793f" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/e8906343-a123-4f42-9fc3-95ea3bdb1db2" width="100%"/>
     <b>점포 매출 조회 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/d4658ac1-4972-4e03-bc73-a731471fbf78" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/e55b915c-6c42-4cd3-a50f-ae40a8a480c3" width="100%"/>
     <b>결제내역 조회 및 결제 취소화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/c057c13a-aa9c-4e0e-92de-d01d6dd600cb" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/9b48b0fc-2ee2-4c3a-b0dc-f1575ca0fc9e" width="100%"/>
     <b>메뉴 추가 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/b1c25fb8-1047-4144-ba69-7290033cbfab" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/feca769b-9890-49bc-9500-45bd2ad1cf25" width="100%"/>
     <b>메뉴 수정 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/1209a493-57a7-4df5-9060-ee3b42dbf235" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/1860fb24-e5fe-40d2-be6a-ecff1889ab03" width="100%"/>
     <b>피드백 조회 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/39fec679-0c6a-4f78-8925-fdc26cdce27d" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/8ee4cb58-6a2b-4928-b7b3-4d79195ddae1" width="100%"/>
     <b>회원조회 및 관리 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/9d108c01-c398-4dd3-a518-051d3fced191" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/3c717ff7-2825-49dc-92dc-441fa7f34284" width="100%"/>
     <b>점포 설정 및 점포 이름 변경 화면</b>
 </div>
 </br>
 <div align="center" dir="auto">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/33ab6ec0-4927-4992-b694-367fb6a2ebbf" width="100%"/> -->
+    <img src="https://github.com/user-attachments/assets/01ce13af-47a7-4035-b3d5-d90cb47d31a3" width="100%"/>
     <b>점포 로고 변경 화면</b>
 </div>
 
@@ -554,22 +556,15 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ### 서창현
 
 <div align="center">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/50f5a224-bbbc-4486-9ce0-b873d962898d" width="200" height="200" /> -->
 </div>
-<span>이번 한 달 반의 기간동안 프로젝트를 진행하게 되면서 많은 것을 느꼈습니다. </br>먼저 이번 프로젝트에서 팀장을 맡게 되면서 책임감을 느끼게 되었고 제가 조금 더 열심히 해서 프로젝트를 잘 마무리 하고 싶다고 생각했습니다. 그 과정에서 팀을 이끌어가기 위해 어떻게 노력해야 할지 고민을 많이 했습니다. 팀원들 각자 맡은 부분을 수행하면서 막히는 부분은 함께 고민하고 제가 아는 대로 알려주며 진행하였습니다. 그렇게 팀원과 저는 복습의 효과를 봄과 동시에 새롭게 알게 되는 부분도 생겨나 서로 윈윈이 되며 프로젝트를 진행하였습니다. </br>또 팀 프로젝트기에 팀원 간의 소통을 중요시 생각했습니다. 그래서 팀원들이 각자의 의견을 적극적으로 주장하고 서로 피드백을 해줄 수 있도록 분위기를 조성하였습니다. </br>이번 프로젝트를 진행하면서 팀장이 아닌 팀원으로서 느낀 부분도 많았습니다. 특히 배포과정에서 공부를 더 해야겠다고 느꼈습니다. 개발 하면서 가장 어려웠던 부분이 배포하는 단계였는데 처음으로 무중단 배포를 해보는 것이라 생소하기도 했고 특히 EC2를 이용하여 DOCKER 컨테이너에 서버를 실행시키는 것이 이론적으로는 이해를 했지만 막상 실습을 할때는 막히는 부분이 많았기 때문입니다. </br>또한 프로젝트를 기획하고 서버를 구축하기 전 데이터베이스를 설계할 때 데이터 정규화의 중요성을 느꼈습니다. 데이터 정규화가 제대로 되지 않은 데이터베이스를 설계하면 불필요한 데이터가 삽입되거나 원하는 데이터를 가져오는데 쉽지 않아 심하면 데이터베이스를 다시 설계 해야 한다는 것을 배웠습니다. </br>이렇게 이번 프로젝트에서 많은 것을 배우고 느끼고 하면서 다음 프로젝트를 진행할 때는 좀 더 잘할 수 있을 거 같다는 자신감도 생겨났습니다. 그리고 잘 따라와 준 팀원들에게 고맙다라는 말을 전해주고 싶습니다.
+<span>
+<p>이번 한 달 동안 프로젝트를 진행하면서 많은 것을 배울 수 있었습니다. 프로젝트를 진행하면서 책임감을 느꼈고, 그 책임을 다하기 위해 최선을 다하겠다는 마음가짐을 가졌습니다. 프로젝트를 추진하는 과정에서 여러 가지 어려움이 있었지만, 하나씩 해결해 나가며 성장하는 소중한 경험을 할 수 있었습니다.</p>
+<p>가장 큰 도전은 배포 과정이었습니다. 첫 번째 프로젝트에서는 프론트엔드에서 카카오 지도를 사용하기 위해 HTTPS를 필수로 적용해야 했고, 그때는 팀원들과 강사님의 도움을 받아 무사히 배포할 수 있었습니다. 하지만 이번 프로젝트에서는 혼자서 무중단 배포를 처음 시도하게 되었고, 특히 EC2를 사용해 Docker 컨테이너에서 서버를 실행시키는 과정에서 이론적으로는 이해했지만 실제로 실습을 하면서 많은 어려움을 겪었습니다. 이 과정을 통해 배포에 대한 깊은 이해가 부족함을 느꼈고, 앞으로 배포 관련 공부를 더 해야겠다는 다짐을 하게 되었습니다.</p>
+<p>또한, 프로젝트 초기 데이터베이스 설계 과정에서 데이터 정규화의 중요성을 실감했습니다. 데이터 정규화가 제대로 이루어지지 않으면 불필요한 데이터 삽입이나, 원하는 데이터를 효율적으로 가져오는 데 어려움이 생길 수 있습니다. 이로 인해 데이터베이스를 재설계해야 할 수도 있다는 점을 깨닫고, 데이터베이스 설계에 대해 다시 한 번 깊이 고민하게 되었습니다.
+이번 프로젝트를 통해 많은 것을 배우고 경험하면서, 다음 프로젝트에서는 더욱 잘할 수 있을 것이라는 자신감이 생겼습니다. 이 경험은 제 개발 역량을 한 단계 더 끌어올려 준 값진 시간이었습니다.</p>
+
+
+
 </span>
-
----
-
-### 서창현2
-
-<div align="center">
-<!--     <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/83110386/37d1fc3b-f435-44d0-adb4-0404c1b71837" width="200" height="200" /> -->
-</div>
-<span>첫 팀 프로젝트라 협업, 명세서, 구조, 진행 방향 등 걱정하는 게 많았는데 기획하는 과정 동안 소통하며 함께 작업하는 동안 협업이 중요하다는 걸 더욱 깨달았습니다.
-프로젝트를 진행하며 맡은 부분을 구현하며 동기, 비동기 부분을 포함하며 모르던 부분을 공부하며 알던 것도 다시 공부하는 시간을 가질 수 있었습니다. 그리고 내가 아닌 다른 사람의 코드를 보면서 처음은 코드를 해석하는 부분이 어려운 부분도 있었지만 이런 식으로도 가능하구나를 깨달을 수 있었습니다.
-그 과정에서 내가 작성한 코드를 다른 사람이 알기 쉽게 작성하는 것이 중요하다는 점을 깨달았습니다.
-그리고 프로젝트를 진행하며 맡은 부분이 있으니 더욱 책임감이 생기고, 그걸 해내면 성취감까지 느낄 수 있었습니다.
-처음 하는 팀 프로젝트라 걱정이 많았지만 팀장이 이끌어주고 조원이 뒤에서 밀어주며 팀 프로젝트를 잘 마무리할 수 있었습니다.</span>
 
 ---
