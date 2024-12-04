@@ -1,4 +1,3 @@
-![포인트 사용 결제화면](https://github.com/user-attachments/assets/51040af8-8c66-4fea-a81d-c1de707dd56c)
 # 🔖 목차
 
 > ## [✨ 프로젝트 소개](#-프로젝트-소개-notion)
