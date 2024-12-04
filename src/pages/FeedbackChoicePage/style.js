@@ -33,7 +33,7 @@ export const methodBox = css`
     background-color: rgb(252, 10, 86);
     width: 350px;
     height: 250px;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     font-weight: 600;
     box-shadow: 5px 5px 5px #898989ff;

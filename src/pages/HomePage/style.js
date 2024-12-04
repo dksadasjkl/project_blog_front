@@ -58,8 +58,8 @@ export const imgBox = css`
     align-items: center;
 
     & > img {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         background-size: fit;
     }
 `;
