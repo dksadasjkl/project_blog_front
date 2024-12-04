@@ -459,7 +459,7 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
 ### 🍔 주문 화면
 
 <div align="center" dir="auto">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/ae645259-b387-4786-8e59-310bc95e28f2" width="100%"/>
+    <img src="https://github.com/user-attachments/assets/ab7d66bd-e0af-4212-a3a5-7d6cbc2e102a" width="100%"/>
     <b>주문 화면</b>
 </div>
 <br/>
@@ -477,16 +477,17 @@ https://www.notion.so/1518925d189a80f3a0ecf6a694f780d0?v=1518925d189a81b48af5000
     <img src="https://github.com/user-attachments/assets/f9ba3024-2cb7-4de4-8813-349768b348dd" width="100%"/>
     <b>포인트 사용 결제화면</b>
 </div>
+
 <div align="center" dir="auto">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/f2cb1cc8-3f14-4cce-9c2d-34003626bcfb" width="50%" />
+    <img src="https://github.com/user-attachments/assets/e11ca642-4333-457d-a2d3-596b641ccffb" width="50%" />
     <br/>
-    <b>카카오페이 결제 화면</b>
+    <b>카카오페이 모바일 결제 화면</b>
 </div>
 
 ### 📨 피드백 화면
 
 <div align="center" dir="auto">
-    <img src="https://github.com/Novel-Ideas/gumeonggage-front/assets/106566223/8f228aed-e36a-484e-bf38-1f4c326668f7" width="100%"/>
+    <img src="https://github.com/user-attachments/assets/16028426-b862-4043-9592-0147ac607e65" width="100%"/>
     <b>피드백 작성 화면</b>
 </div>
 
